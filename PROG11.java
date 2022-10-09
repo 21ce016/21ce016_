@@ -69,9 +69,9 @@ class Triplet<U, V, T> {
 // Program to implement Triplet class in Java
 class Main {
     public static void main(String[] args) throws ExecutionException {
-        Triplet<String, Integer, Character> p1 = Triplet.of("HARSH DUDHAT", 26, 'M');
-        Triplet<String, Integer, Character> p2 = Triplet.of("RAM", 20, 'M');
-        Triplet<String, Integer, Character> p3 = Triplet.of("KRISHNA", 26, 'M');
+        Triplet<String, Integer, Character> p1 = Triplet.of("MAMTA", 16, 'f');
+        Triplet<String, Integer, Character> p2 = Triplet.of("PAVAN", 18, 'M');
+        Triplet<String, Integer, Character> p3 = Triplet.of("VEDIKA", 10, 'M');
 
         List<Triplet<String, Integer, Character>> pairs = new ArrayList<>();
         pairs.add(p1);
