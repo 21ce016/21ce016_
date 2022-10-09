@@ -44,7 +44,7 @@ class pr12 {
 
         // Creating objects of bank and Employee class
         Bank bank = new Bank("SBI");
-        Employee emp = new Employee("HARSH DUDHAT");
+        Employee emp = new Employee("mamta");
         System.out.println(emp.getEmployeeName()
                 + " is employee of "
                 + bank.getBankName());
